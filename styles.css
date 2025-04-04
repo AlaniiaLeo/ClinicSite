@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e5eb;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #adcce9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e5eb;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #adcce9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #446888;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: middle;
+}
+
+button:hover {
+    background-color: #446888;
+}
+
+
+
+
+
+header {
+    background-color: #ffffff; /* Цвет фона */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.u-header .u-sheet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Стили для логотипа */
+.u-logo {
+    display: flex;
+    align-items: center;
+}
+
+.u-logo img {
+    height: 105px; /* Высота логотипа */
+    width: 122px;
+    max-width: 100%;
+}
+
+.u-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Стили для навигации */
+.u-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.u-nav-item {
+    margin: 0 15px;
+}
+
+.u-nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.u-nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Адаптивное меню */
+.menu-collapse {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .u-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #007BFF;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .u-nav-item {
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .menu-collapse {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    .menu-collapse svg {
+        fill: white;
+    }
+
+    .u-nav.active {
+        display: flex;
+    }
+
+    /* Логотип центрируется */
+    .u-logo {
+        justify-content: center;
+        width: 100%;
+    }
+}
+}

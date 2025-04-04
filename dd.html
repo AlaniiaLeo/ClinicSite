@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запис на прийом</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+</head>
+
+
+<header class="u-clearfix u-header u-header" id="sec-f27d"><div class="u-clearfix u-sheet u-sheet-1">
+       <a href="#" class="u-image u-logo u-image-1" data-image-width="241" data-image-height="208">
+         <img src="image/a.png" class="u-logo u-logo-imag">
+       </a>
+       <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
+         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 500;">
+           <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-5-base" href="#">
+             <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+             <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+           </a>
+         </div>
+         <div class="u-custom-menu u-nav-container">
+           <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 20px;">О нас</a>
+</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="#" style="padding: 10px 20px;">Контакты</a>
+</li></ul>
+         </div>
+         </header>
+
+
+
+
+
+<body>
+  <h1>Мережа ветеринарної клініки PetCare Clinic</h1>
+  <h2>Запис на прийом</h2>
+    <div class="container">
+        <form id="appointment-form">
+            <label for="first-name">Ім'я</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Введіть ім'я" required>
+
+            <label for="last-name">Прізвище</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Введіть прізвище" required>
+
+            <label for="address">Поштова адреса</label>
+            <input type="text" id="address" name="address" placeholder="Введіть адресу">
+
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="050 123 4567" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
+
+            <label for="service">Виберіть послугу</label>
+            <select id="service" name="service">
+                <option value="therapist">Прийом терапевта</option>
+                <option value="surgery">Хірургічне втручання</option>
+                <option value="vaccination">Вакцинація</option>
+            </select>
+
+            <label for="date">Дата прийому</label>
+            <input type="text" id="date" name="date" placeholder="Оберіть дату" required>
+
+            <label for="time">Час прийому</label>
+            <select id="time" name="time" required>
+                <option value="10:00">10:00</option>
+                <option value="10:30">10:30</option>
+                <option value="11:00">11:00</option>
+            </select>
+
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/l10n/uk.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

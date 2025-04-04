@@ -1,0 +1,159 @@
+.u-section-1 {
+ background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+ min-height: 597px;
+}
+
+.u-section-1 .u-text-1 {
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 1.875rem;
+ width: 345px;
+ margin: 50px auto 0;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+ margin-top: 50px;
+ margin-bottom: 60px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+ min-height: 245px;
+}
+
+.u-section-1 .u-container-layout-1 {
+ padding: 30px 30px 80px;
+}
+
+.u-section-1 .u-icon-1 {
+ height: 48px;
+ width: 48px;
+ margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+ font-weight: 700;
+ margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+ margin: 19px 0 0;
+}
+
+.u-section-1 .u-layout-cell-2 {
+ min-height: 245px;
+}
+
+.u-section-1 .u-container-layout-2 {
+ padding: 30px;
+}
+
+.u-section-1 .u-icon-2 {
+ height: 48px;
+ width: 48px;
+ margin: 0 auto;
+}
+
+.u-section-1 .u-text-4 {
+ font-weight: 700;
+ text-transform: uppercase;
+ margin: 22px 0 0;
+}
+
+.u-section-1 .u-text-5 {
+ margin: 19px 0 0;
+}
+
+.u-section-1 .u-layout-cell-3 {
+ min-height: 245px;
+}
+
+.u-section-1 .u-container-layout-3 {
+ padding: 30px;
+}
+
+.u-section-1 .u-icon-3 {
+ height: 48px;
+ width: 48px;
+ margin: 0 auto;
+}
+
+.u-section-1 .u-text-6 {
+ font-weight: 700;
+ text-transform: uppercase;
+ margin: 19px 0 0;
+}
+
+.u-section-1 .u-text-7 {
+ margin: 20px 0 0;
+}
+
+@media (max-width: 1199px) {
+ .u-section-1 .u-sheet-1 {
+   min-height: 833px;
+ }
+
+ .u-section-1 .u-layout-cell-1 {
+   min-height: 202px;
+ }
+
+ .u-section-1 .u-layout-cell-2 {
+   min-height: 202px;
+ }
+
+ .u-section-1 .u-layout-cell-3 {
+   min-height: 202px;
+ }
+}
+
+@media (max-width: 991px) {
+ .u-section-1 .u-sheet-1 {
+   min-height: 566px;
+ }
+
+ .u-section-1 .u-layout-cell-1 {
+   min-height: 100px;
+ }
+
+ .u-section-1 .u-container-layout-1 {
+   padding-bottom: 30px;
+ }
+
+ .u-section-1 .u-layout-cell-2 {
+   min-height: 100px;
+ }
+
+ .u-section-1 .u-layout-cell-3 {
+   min-height: 100px;
+ }
+}
+
+@media (max-width: 767px) {
+ .u-section-1 .u-sheet-1 {
+   min-height: 766px;
+ }
+
+ .u-section-1 .u-container-layout-1 {
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .u-section-1 .u-container-layout-2 {
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .u-section-1 .u-container-layout-3 {
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+}
+
+@media (max-width: 575px) {
+ .u-section-1 .u-text-1 {
+   font-size: 1.5rem;
+   width: 340px;
+ }
+}
